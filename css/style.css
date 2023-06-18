@@ -19,6 +19,12 @@ body {
 	font-weight:normal;
 	font-style:normal;
 }
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
 #background {
 	background:url("../images/bg-body.jpg");
 	background-repeat:no-repeat;
@@ -97,8 +103,9 @@ body {
 #background #page #body .featured .section img {
 	border:0;
 	text-decoration:none;
-	position:absolute;
+	position:relative;
 	z-index:0;
+	float: right;
 }
 #background #page #body .featured .section div {
 	margin-left:45px;
@@ -302,7 +309,7 @@ body {
 	border:0;
 }
 #background #page #body #content .section .content {
-	width:560px;
+	width:900px;
 	float:left;
 	padding:0 25px 0 25px;
 }
